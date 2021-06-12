@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+SET(PROJECT_NAME "Simple-PointCloud-Data-PCL")
+project(${PROJECT_NAME})
+
+SET(EXECUTABLE_OUTPUT_PATH ./${CMAKE_BUILD_TYPE})
+include_directories(include)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+SET( CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${COMPILE_FLAGS}" )
+SET( CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} ${LINK_FLAGS}" )
