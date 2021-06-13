@@ -1,3 +1,0 @@
-C:/Users/panis/github/Simple-PointCloud-Data-PCL-/build/CMakeFiles/Simple-PointCloud-Data-PCL.dir
-C:/Users/panis/github/Simple-PointCloud-Data-PCL-/build/CMakeFiles/edit_cache.dir
-C:/Users/panis/github/Simple-PointCloud-Data-PCL-/build/CMakeFiles/rebuild_cache.dir
