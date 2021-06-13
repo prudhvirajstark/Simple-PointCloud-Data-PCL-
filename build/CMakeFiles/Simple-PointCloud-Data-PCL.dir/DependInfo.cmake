@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/panis/github/Simple-PointCloud-Data-PCL-/src/main.cpp" "CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj.d"
+  "C:/Users/panis/github/Simple-PointCloud-Data-PCL-/src/shader.cpp" "CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj.d"
   )
 
 # Targets to which this target links.
