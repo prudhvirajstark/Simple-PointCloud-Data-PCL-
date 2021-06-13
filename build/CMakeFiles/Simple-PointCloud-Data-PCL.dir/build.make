@@ -72,30 +72,30 @@ CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj: CMakeFiles/Simple-Po
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj: CMakeFiles/Simple-PointCloud-Data-PCL.dir/includes_CXX.rsp
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj: CMakeFiles/Simple-PointCloud-Data-PCL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj -MF CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\main.cpp.obj.d -o CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\main.cpp.obj -c C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\main.cpp
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.i"
+	@echo Preprocessing CXX source to CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.i
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\main.cpp > CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\main.cpp.i
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.s"
+	@echo Compiling CXX source to assembly CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.s
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\main.cpp -o CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\main.cpp.s
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj: CMakeFiles/Simple-PointCloud-Data-PCL.dir/flags.make
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj: CMakeFiles/Simple-PointCloud-Data-PCL.dir/includes_CXX.rsp
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj: ../src/shader.cpp
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj: CMakeFiles/Simple-PointCloud-Data-PCL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj -MF CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\shader.cpp.obj.d -o CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\shader.cpp.obj -c C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\shader.cpp
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.i"
+	@echo Preprocessing CXX source to CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.i
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\shader.cpp > CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\shader.cpp.i
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.s"
+	@echo Compiling CXX source to assembly CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.s
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\panis\github\Simple-PointCloud-Data-PCL-\src\shader.cpp -o CMakeFiles\Simple-PointCloud-Data-PCL.dir\src\shader.cpp.s
 
 # Object files for target Simple-PointCloud-Data-PCL
@@ -106,17 +106,18 @@ Simple__PointCloud__Data__PCL_OBJECTS = \
 # External object files for target Simple-PointCloud-Data-PCL
 Simple__PointCloud__Data__PCL_EXTERNAL_OBJECTS =
 
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/build.make
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/linklibs.rsp
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/objects1.rsp
-Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Simple-PointCloud-Data-PCL.exe"
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/main.cpp.obj
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/src/shader.cpp.obj
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/build.make
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/linklibs.rsp
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/objects1.rsp
+Debug/Simple-PointCloud-Data-PCL.exe: CMakeFiles/Simple-PointCloud-Data-PCL.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Debug\Simple-PointCloud-Data-PCL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Simple-PointCloud-Data-PCL.dir\link.txt --verbose=$(VERBOSE)
+	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/panis/github/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/panis/github/Simple-PointCloud-Data-PCL-/build/Debug/Simple-PointCloud-Data-PCL.exe -installedDir C:/Users/panis/github/vcpkg/installed/x64-windows/bin -OutVariable out
 
 # Rule to build all files generated by this target.
-CMakeFiles/Simple-PointCloud-Data-PCL.dir/build: Simple-PointCloud-Data-PCL.exe
+CMakeFiles/Simple-PointCloud-Data-PCL.dir/build: Debug/Simple-PointCloud-Data-PCL.exe
 .PHONY : CMakeFiles/Simple-PointCloud-Data-PCL.dir/build
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/clean:
@@ -124,6 +125,6 @@ CMakeFiles/Simple-PointCloud-Data-PCL.dir/clean:
 .PHONY : CMakeFiles/Simple-PointCloud-Data-PCL.dir/clean
 
 CMakeFiles/Simple-PointCloud-Data-PCL.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\panis\github\Simple-PointCloud-Data-PCL- C:\Users\panis\github\Simple-PointCloud-Data-PCL- C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles\Simple-PointCloud-Data-PCL.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\panis\github\Simple-PointCloud-Data-PCL- C:\Users\panis\github\Simple-PointCloud-Data-PCL- C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build C:\Users\panis\github\Simple-PointCloud-Data-PCL-\build\CMakeFiles\Simple-PointCloud-Data-PCL.dir\DependInfo.cmake
 .PHONY : CMakeFiles/Simple-PointCloud-Data-PCL.dir/depend
 

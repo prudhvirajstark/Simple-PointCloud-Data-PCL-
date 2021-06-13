@@ -8,9 +8,13 @@ project(${PROJECT_NAME})
 
 SET(EXECUTABLE_OUTPUT_PATH ./${CMAKE_BUILD_TYPE})
 include_directories(include)
+include_directories("C:\\Users\\panis\\github\\vcpkg\\installed\\x64-windows\\include")
+link_directories("C:\\Users\\panis\\github\\vcpkg\\installed\\x64-windows\\lib")
 file(GLOB_RECURSE SOURCES "src/*.cpp")
-
 add_executable(${PROJECT_NAME} ${SOURCES})
+find_package(glfw3 CONFIG REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE glfw)
+
 
 
 SET( CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${COMPILE_FLAGS}" )

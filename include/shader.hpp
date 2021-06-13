@@ -1,4 +1,6 @@
 #ifndef SHADER_HPP_INCLUDED
 #define SHADER_HPP_INCLUDED
 
+#include <GLFW/glfw3.h>
+
 #endif //SHADER_HPP_INCLUDED

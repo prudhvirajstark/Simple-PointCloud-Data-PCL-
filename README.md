@@ -5,6 +5,7 @@ The main purpose of this personal project was to provide an educational and skil
 I have installed CMake, MinGW32 (for mingw32-make and gcc.exe/g++.exe)
 
 
+[install vcpkg from here](https://www.40tude.fr/how-to-use-vcpkg-with-vscode-and-cmake/)
 
 # test.ply
 
